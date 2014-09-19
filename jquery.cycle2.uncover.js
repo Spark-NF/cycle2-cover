@@ -31,7 +31,6 @@
 
 	        if (fwd) {
 	            opts.API.stackSlides( nextEl, currEl, fwd );
-	            // force curr slide to bottom of the stack
 	            $(currEl).css( 'zIndex', 1 );
 	        }
 	        else {
