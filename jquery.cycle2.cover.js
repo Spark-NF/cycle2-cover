@@ -8,6 +8,7 @@
 	            visibility: 'visible'
 	        });
 	        var width = opts.container.width();
+	        var height = opts.container.height();
 	        var speed = opts.speed;
 	        var element = nextEl;
 
