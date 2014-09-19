@@ -8,12 +8,22 @@
 	            visibility: 'visible'
 	        });
 	        var width = opts.container.width();
+	        var height = opts.container.height();
 	        var speed = opts.speed;
 	        var element = currEl;
 
 	        opts = opts.API.getSlideOpts( opts.currSlide );
-	        var props1 = { left: fwd ? -width : width };
-	        var props2 = { left: 0 };
+	        var props1 = { left: fwd ? -width : width, top: 0 };
+	        if (opts.direction == 'up') {
+	        	props1 = { left: 0, top: fwd ? -height : height };
+	        }
+	        else if (opts.direction == 'right') {
+	        	props1 = { left: fwd ? width : -width, top: 0 };
+	        }
+	        else if (opts.direction == 'down') {
+	        	props1 = { left: 0, top: fwd ? height : -height };
+	        }
+	        var props2 = { left: 0, top: 0 };
 
 	        $(element)
 	            .animate( props1, speed, opts.easing, callback )
