@@ -29,13 +29,14 @@ Plugin for cycle2 implementing cycle1's cover and uncover transitions.
 ```
 
 ## Documentation
-Name            | Type   | Default value | Description
---------------- | ------ | ------------- | -----------
-enter-animation | string | cover         | Whether the slide will cover the previous one or if the previous one should leave to show the next one. Can be 'cover' or 'uncover'.
-enter-position  | string | left          | Where the slide will enter from. Can be 'top', 'right', 'bottom' or 'left'.
-exit-animation  | string | cover         | Whether the slide will cover the previous one or if the previous one should leave to show the next one. Can be 'cover' or 'uncover'.
-exit-position   | string | right         | Where the slide will exit to. Can be 'top', 'right', 'bottom' or 'left'.
-The 'easing' and 'speed' options are also supported and work the same as in the original Cycle2 (see [Cycle2 API](http://jquery.malsup.com/cycle2/api/)).
+Name            | Type   | Default | Description
+--------------- | ------ | ------- | -----------
+enter-animation | string | cover   | Whether the slide will cover the previous one or if the previous one should leave to show the next one. Can be 'cover' or 'uncover'.
+enter-position  | string | left    | Where the slide will enter from. Can be 'top', 'right', 'bottom' or 'left'.
+exit-animation  | string | cover   | Whether the slide will cover the previous one or if the previous one should leave to show the next one. Can be 'cover' or 'uncover'.
+exit-position   | string | right   | Where the slide will exit to. Can be 'top', 'right', 'bottom' or 'left'.
+The 'easing' and 'speed' options are also supported and work the same as in the original Cycle2.
+See [Cycle2 API](http://jquery.malsup.com/cycle2/api/).
 
 ## Authors
 * Nicolas Faure
