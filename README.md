@@ -1,7 +1,7 @@
 # Cycle2 cover
 
 ## About
-Plugin for cycle2 implementing cycle1's cover and uncover transitions.
+Plugin for cycle2 implementing the original cycle's cover and uncover transitions.
 
 ## Getting started
 ```html
