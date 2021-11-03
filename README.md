@@ -1,5 +1,8 @@
 # Cycle2 cover
 
+[![GitHub issues](https://img.shields.io/github/issues/Spark-NF/cycle2-cover.svg)](https://github.com/Spark-NF/cycle2-cover/issues)
+[![Project license](https://img.shields.io/github/license/Spark-NF/cycle2-cover.svg)](https://raw.githubusercontent.com/Spark-NF/cycle2-cover/master/LICENSE)
+
 ## About
 Plugin for cycle2 implementing the original cycle's cover and uncover transitions.
 
@@ -39,7 +42,7 @@ The 'easing' and 'speed' options are also supported and work the same as in the 
 See [Cycle2 API](http://jquery.malsup.com/cycle2/api/).
 
 ## Authors
-* Nicolas Faure
+* [Nicolas Faure](https://github.com/Spark-NF)
 
 ## License
 The script is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
